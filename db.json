@@ -1,0 +1,177 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "MIRISSA",
+      "body": "https://images.ctfassets.net/3vgdkcmqrnp2/2szrH2eM2Aef05FtdvB4fH/d4805de0bc644254a19cb6017560b0da/154-best-beaches-in-sri-lanka-1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "SIGIRIYA",
+      "body": "https://c0.wallpaperflare.com/preview/477/830/453/sigiriya-sri-lanka-travel-rock.jpg"
+    },
+    {
+      "id": "3",
+      "title": "ELLA",
+      "body": "https://explore.vacations/wp-content/uploads/2020/06/Nine-Arch-Bridge.jpg"
+    },
+    {
+      "id": "4",
+      "title": "BATTICALOA",
+      "body": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sea_Fishing%2C_Batticaloa.jpg"
+    },
+    {
+      "id": "5",
+      "title": "KANDY",
+      "body": "https://www.travelolanka.com/images/destination/1356174142_0!!-!!Kandy.jpg"
+    },
+    {
+      "id": "6",
+      "title": "ANURADHAPURA",
+      "body": "https://c1.wallpaperflare.com/preview/645/468/30/sri-lanka-anuradhapura-temple-buddhism.jpg"
+    },
+    {
+      "id": "7",
+      "title": "COLOMBO",
+      "body": "https://wallpaperaccess.com/full/2083644.jpg"
+    }
+  ],
+  "feedback": [
+    {
+      "name": "akshaypp",
+      "feedback": "test 1",
+      "id": "Df6H5sm"
+    },
+    {
+      "id": "aWD0sCR",
+      "name": "akshay p",
+      "feedback": "test1 test"
+    },
+    {
+      "id": "EyJ2v0U",
+      "name": "test",
+      "feedback": "testing in progress"
+    },
+    {
+      "id": "fdjLUDM",
+      "name": "akshay",
+      "feedback": "nice work"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Klaus Huntelaar",
+      "feedback": "Nice place to visit"
+    },
+    {
+      "id": "2",
+      "name": "Sam",
+      "feedback": "cool staff"
+    },
+    {
+      "id": "3",
+      "name": "John",
+      "feedback": "Simple yet elegant"
+    },
+    {
+      "id": "4",
+      "name": "Max",
+      "feedback": "WoW"
+    },
+    {
+      "id": "mxLBoN9",
+      "name": "akshay",
+      "feedback": "nice"
+    }
+  ],
+  "links": [
+    {
+      "id": "1",
+      "name": "Facebook",
+      "link": "https://www.facebook.com/",
+      "logo": "https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_640.png"
+    },
+    {
+      "id": "2",
+      "name": "Instagram",
+      "link": "https://www.instagram.com",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+    },
+    {
+      "id": "3",
+      "name": "LinkedIn",
+      "link": "https://www.LinkedIn.com",
+      "logo": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+    },
+    {
+      "id": "4",
+      "link": "",
+      "logo": "https://cdn-icons-png.flaticon.com/512/4187/4187236.png"
+    }
+  ],
+  "admin": [
+    {
+      "id": "akshupdf",
+      "username": "akshupdf",
+      "password": "12345"
+    },
+    {
+      "id": "3",
+      "username": "akshayp",
+      "password": "1234"
+    },
+    {
+      "username": "akshaypp",
+      "password": "1234",
+      "id": "hIKvhYc"
+    },
+    {
+      "id": "test",
+      "username": "test",
+      "password": "1234"
+    },
+    {
+      "id": "admin",
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "mini": [
+    {
+      "id": "1",
+      "name": "SIGIRIYA",
+      "link": "https://c0.wallpaperflare.com/preview/477/830/453/sigiriya-sri-lanka-travel-rock.jpg"
+    },
+    {
+      "id": "2",
+      "name": "ELLA",
+      "link": "https://explore.vacations/wp-content/uploads/2020/06/Nine-Arch-Bridge.jpg"
+    },
+    {
+      "id": "3",
+      "name": "BATTICALOA",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sea_Fishing%2C_Batticaloa.jpg"
+    },
+    {
+      "id": "4",
+      "name": "KANDY",
+      "link": "https://www.travelolanka.com/images/destination/1356174142_0!!-!!Kandy.jpg"
+    },
+    {
+      "id": "5",
+      "name": "ANURADHA",
+      "link": "https://c1.wallpaperflare.com/preview/645/468/30/sri-lanka-anuradhapura-temple-buddhism.jpg"
+    },
+    {
+      "id": "6",
+      "name": "COLOMBO",
+      "link": "https://wallpaperaccess.com/full/2083644.jpg"
+    },
+    {
+      "id": "7",
+      "name": "MIRISSA",
+      "link": "https://images.ctfassets.net/3vgdkcmqrnp2/2szrH2eM2Aef05FtdvB4fH/d4805de0bc644254a19cb6017560b0da/154-best-beaches-in-sri-lanka-1.jpg"
+    }
+  ]
+}
