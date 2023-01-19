@@ -36,7 +36,7 @@ function Home () {
     
 
     const showData = () => {
-    return axios.get("http://localhost:5000/posts/").then((response) => {
+    return axios.get("http://localhost:3000/posts/").then((response) => {
      setData(response.data)
      
   
