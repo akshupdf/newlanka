@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/akshupdf/newlanka/static/css/main.be46263b.css",
-    "main.js": "/akshupdf/newlanka/static/js/main.7b32d281.js",
-    "static/media/fest.jpg": "/akshupdf/newlanka/static/media/fest.a4212613ed37479a1201.jpg",
-    "static/media/fest1.jpg": "/akshupdf/newlanka/static/media/fest1.4778c61c2eaa852b0e42.jpg",
-    "static/media/fest2.jpg": "/akshupdf/newlanka/static/media/fest2.3ab175dcf48cbf19b237.jpg",
-    "static/media/feed1.jpg": "/akshupdf/newlanka/static/media/feed1.26c57d4b38077c7130fc.jpg",
-    "static/media/revicons.eot": "/akshupdf/newlanka/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/akshupdf/newlanka/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/akshupdf/newlanka/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/akshupdf/newlanka/index.html",
-    "main.be46263b.css.map": "/akshupdf/newlanka/static/css/main.be46263b.css.map",
-    "main.7b32d281.js.map": "/akshupdf/newlanka/static/js/main.7b32d281.js.map"
+    "main.css": "/static/css/main.3da52abd.css",
+    "main.js": "/static/js/main.2c24435e.js",
+    "static/media/fest.jpg": "/static/media/fest.a4212613ed37479a1201.jpg",
+    "static/media/fest1.jpg": "/static/media/fest1.4778c61c2eaa852b0e42.jpg",
+    "static/media/fest2.jpg": "/static/media/fest2.3ab175dcf48cbf19b237.jpg",
+    "static/media/feed1.jpg": "/static/media/feed1.26c57d4b38077c7130fc.jpg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.3da52abd.css.map": "/static/css/main.3da52abd.css.map",
+    "main.2c24435e.js.map": "/static/js/main.2c24435e.js.map"
   },
   "entrypoints": [
-    "static/css/main.be46263b.css",
-    "static/js/main.7b32d281.js"
+    "static/css/main.3da52abd.css",
+    "static/js/main.2c24435e.js"
   ]
 }
