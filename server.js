@@ -1,16 +1,26 @@
-const jsonServer = require('json-server');
-const app = jsonServer.create();
-const path = require('path');
-const express = require('express');
-const middlewares = jsonServer.defaults();
-const router = jsonServer.router('db.json');
-const port = process.env.PORT || 5000;
+const jsonServer = require('json-server')
+const clone = require('clone')
+const data = require('./db.json')
 
-app.use('/db', middlewares, router);
-app.use(express.static(path.join(__dirname, 'build')));
+const isProductionEnv = process.env.NODE_ENV === 'production';
+const server = jsonServer.create()
 
-app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+const router = jsonServer.router(isProductionEnv ? clone(data) : 'db.json', {
+    _isFake: isProductionEnv
+})
+const middlewares = jsonServer.defaults()
 
-app.listen(port);
+server.use(middlewares)
+
+server.use((req, res, next) => {
+    if (req.path !== '/')
+        router.db.setState(clone(data))
+    next()
+})
+
+server.use(router)
+server.listen(process.env.PORT || 8000, () => {
+    console.log('JSON Server is running')
+})
+
+module.exports = server
