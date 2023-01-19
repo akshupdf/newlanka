@@ -27,7 +27,7 @@ function Nav() {
 
   return (
 
-    <div className=" relative flex w-[200vh] h-auto ">
+    <div className=" relative flex w-[200vh] h-auto text-white font-serif ">
 
 
       <div className='w-[40%] absolute ml-20 '><Link to='/'><img src={logo} alt="" className='h-10 m-2'></img> </Link></div>

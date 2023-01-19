@@ -121,7 +121,7 @@ function Home () {
       {
         data && data.map((data, index)=>(
 
-                <div className="  w-full  h-screen relative " data-interval='8000' key={data.id}><img src={data.body}  id={index} alt="" className=' absolute w-full h-auto'></img></div>
+                <div className="  w-full   h-screen relative " data-interval='8000' key={data.id}><img src={data.body}  id={index} alt="" className='gradient-to-r from-slate-200 to-slate-100 absolute w-full h-auto'></img></div>
        
          ))
       }
@@ -153,20 +153,20 @@ function Home () {
     <div className='fixed'><Nav /></div>
     <div className='flex flex-wrap'>
 
-    <div className='relative mt-20 sm:w-[40%] w-40 sm:h-[60vh] h-40    text-left   sm:p-20  font-semibold text-opacity-1000 text-white   '>
+    <div className='relative mt-20 bg-blend-overlay sm:w-[40%] w-40 sm:h-[60vh] h-40   text-left   sm:p-20  font-sans     text-white   '>
     <div className='py-8'>
         <Typed
-          className=' text-4xl  font-bold md:block hidden  relative'
+          className=' text-4xl  font-bold md:block hidden   relative'
           strings={['Welcome to Sri Lanka', 'Explore','An Island PARADISE']} typeSpeed={120} backSpeed={100} loop />
       </div>
-        <p className=' md:block hidden'>Sri Lanka has been ranked among the Top 10 friendliest countries in the world in the 2022 Readers' Choice Awards. The Condé Nast Traveller revealed the most welcoming destinations from all four corners of the globe, as voted by its readers.</p>
+        <p className=' md:block hidden '>Sri Lanka has been ranked among the Top 10 friendliest countries in the world in the 2022 Readers' Choice Awards. The Condé Nast Traveller revealed the most welcoming destinations from all four corners of the globe, as voted by its readers.</p>
         
-        <a href="https://www.srilanka.travel/" className="relative bg-white w-[25vh] items-center md:block hidden px-12 py-3 mt-4 overflow-hidden text-lg font-medium text-black border-2 border-black rounded-full hover:text-white group hover:bg-black">
+        <a href="https://www.srilanka.travel/" className="relative  w-[25vh] items-center md:block hidden px-12 py-3 mt-4 overflow-hidden text-lg font-medium text-black border-2 border-black rounded-full hover:text-white group hover:bg-black">
 <span className="absolute left-0 block w-full h-0 transition-all bg-black opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
 <span className="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
 <svg className="w-5 mb-1 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
 </span>
-<span className="relative">Explore</span>
+<span className="relative text-white">Explore</span>
 </a>
     </div>
     <div className=' sm:w-[40%]  h-[40vh] sm:relative sm:mt-[50vh] ml-60 p-4 md:block hidden '>
