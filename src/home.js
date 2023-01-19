@@ -10,7 +10,7 @@ import ride from './images/fest1.jpg'
 // import top from './images/sea2.jpg'
 // import top1 from './images/lanka.jpeg'
 // import top2 from './images/train1.jpg'
-import { Container, Link } from 'react-floating-action-button'
+import { Container} from 'react-floating-action-button'
 // import {FiInstagram,FiFacebook,FiLinkedin} from 'react-icons/fi'
 import Nav from './components/navbar';
 import Minislider from './components/minislider';
@@ -18,7 +18,6 @@ import React, {useEffect, useState } from 'react'
 import axios from 'axios'
 import Typed from 'react-typed'
 import Popup from 'reactjs-popup';
-import {FaRegHandPointLeft} from 'react-icons/fa'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {  useNavigate } from "react-router-dom";
