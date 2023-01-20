@@ -9,20 +9,29 @@
         }
       }
     ],
-    "routes": [
-      {
-        
-        "dest": "server.js"
-      }
-    ],
+      "routes": [
+        {
+          "src": "/posts/(.*)",
+          "headers": { "Location": "http://localhost:5000/posts/" },
+          "status": 307
+        }
+      ],  
     "headers": [
         {
           "source": "/api/(.*)",
           "headers": [
+            
             { "key": "Access-Control-Allow-Credentials", "value": "true" },
             { "key": "Access-Control-Allow-Origin", "value": "*" },
+            
+            { "src": "/adminpanel/posts", "methods": ["GET,OPTIONS,PATCH,DELETE,POST,PUT"], "dest": "http://localhost:5000/posts/" },
+            { "src": "/posts", "methods": ["GET,OPTIONS,PATCH,DELETE,POST,PUT"], "dest": "http://localhost:5000/posts/" },
+            { "src": "/links", "methods": ["GET,OPTIONS,PATCH,DELETE,POST,PUT"], "dest": "http://localhost:5000/links/" },            
+            { "src": "/feedback", "methods": ["GET,OPTIONS,PATCH,DELETE,POST,PUT"], "dest": "http://localhost:5000/feedback/" },            
+            { "src": "/admin", "methods": ["GET,OPTIONS,PATCH,DELETE,POST,PUT"], "dest": "http://localhost:5000/admin/" },            
+            { "src": "/mini", "methods": ["GET,OPTIONS,PATCH,DELETE,POST,PUT"], "dest": "http://localhost:5000/mini/" },
             { "key": "Access-Control-Allow-Methods", "value": "GET,OPTIONS,PATCH,DELETE,POST,PUT" },
-            { "key": "Access-Control-Allow-Headers", "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version" }
+            { "key": "Access-Control-Allow-Headers", "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version ,Content-Range, posts 0-50/10" }
           ]
         }
       ]

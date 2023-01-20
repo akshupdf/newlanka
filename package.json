@@ -32,7 +32,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "server": "json-server --watch db.json --port 3000 -m ./node_modules/json-server-auth --middlewares ./range.js",
+    "server": "json-server --watch db.json --port 5000 -m ./node_modules/json-server-auth --middlewares ./range.js",
     "start": "concurrently \"npm run server\" \"npm run lanka\"  ",
     "lanka": "react-scripts start ",
     "build": "react-scripts build",
