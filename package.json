@@ -31,7 +31,7 @@
     "server": "json-server --watch db.json --port 5000 -m ./node_modules/json-server-auth --middlewares ./range.js",
     "start": "concurrently \"npm run server\" \"npm run lanka\"  ",
     "lanka": "react-scripts start ",
-    "build": "react-scripts build",
+    "build": "react-scripts build --host 127.0.0.1",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -53,7 +53,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
+   "devDependencies": {
     "gh-pages": "^4.0.0",
     "tailwindcss": "^3.2.4"
   },
