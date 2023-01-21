@@ -2,7 +2,7 @@
   "name": "lanka",
   "proxy": "http://localhost:5000",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -31,7 +31,7 @@
     "server": "json-server --watch db.json --port 5000 -m ./node_modules/json-server-auth --middlewares ./range.js",
     "start": "concurrently \"npm run server\" \"npm run lanka\"  ",
     "lanka": "react-scripts start ",
-    "build": "react-scripts build --host 127.0.0.1",
+    "build": "react-scripts build --host 0.0.0.0",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,6 +40,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "devServer":{
+    "allowedHosts": "auto"
   },
   "browserslist": {
     "production": [
