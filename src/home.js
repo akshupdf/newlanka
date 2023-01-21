@@ -16,11 +16,11 @@ import Nav from './components/navbar';
 import Minislider from './components/minislider';
 import React, {useEffect, useState } from 'react'
 import axios from 'axios'
-import Typed from 'react-typed'
 import Popup from 'reactjs-popup';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {  useNavigate } from "react-router-dom";
+import { TypeAnimation } from 'react-type-animation';
 
 
 
@@ -153,10 +153,11 @@ function Home () {
     <div className='flex flex-wrap'>
 
     <div className='relative mt-20 bg-blend-overlay sm:w-[40%] w-40 sm:h-[60vh] h-40   text-left   sm:p-20  font-sans     text-white   '>
-    <div className='py-8'>
-        <Typed
-          className=' text-4xl  font-bold md:block hidden   relative'
-          strings={['Welcome to Sri Lanka', 'Explore','An Island PARADISE']} typeSpeed={120} backSpeed={100} loop />
+    <div className='py-8 text-4xl'>
+      <TypeAnimation sequence={['Welcome to Sri Lanka',2000,'Explore',2000,'An Island PARADISE',2000]} cursor={true}
+      repeat={Infinity}
+      />
+        
       </div>
         <p className=' md:block hidden '>Sri Lanka has been ranked among the Top 10 friendliest countries in the world in the 2022 Readers' Choice Awards. The Condé Nast Traveller revealed the most welcoming destinations from all four corners of the globe, as voted by its readers.</p>
         

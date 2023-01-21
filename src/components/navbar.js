@@ -27,15 +27,15 @@ function Nav() {
 
   return (
 
-    <div className=" relative flex w-[200vh] h-auto text-white font-serif ">
+    <div className=" relative flex w-[200vh] h-auto text-black  font-sans ">
 
 
       <div className='w-[40%] absolute ml-20 '><Link to='/'><img src={logo} alt="" className='h-10 m-2'></img> </Link></div>
       <div className='w-[80%] ml-[70%] hidden md:flex'>
-        <ul className='flex  bg-backdrop-50'>
-          <li className='p-4 ' ><Link to='/'>Home </Link></li>
-          <li className='p-4 relative' ><Link to='/about'>About </Link></li>
-          <li className='p-4 relative' ><Link to='/login'>Login </Link></li>
+        <ul className='flex  '>
+          <li className='p-4 relative hover:underline italic' ><Link to='/'>Home </Link></li>
+          <li className='p-4 relative hover:underline italic' ><Link to='/about'>About </Link></li>
+          <li className='p-4 relative hover:underline italic' ><Link to='/login'>Login </Link></li>
         </ul>
       </div>
       <div>
