@@ -153,7 +153,7 @@ function Home () {
     <div className='flex flex-wrap'>
 
     <div className='relative mt-20 bg-blend-overlay sm:w-[40%] w-40 sm:h-[60vh] h-40   text-left   sm:p-20  font-sans     text-white   '>
-    <div className='py-8 text-4xl'>
+    <div className='py-8 text-4xl italic'>
       <TypeAnimation sequence={['Welcome to Sri Lanka',2000,'Explore',2000,'An Island PARADISE',2000]} cursor={true}
       repeat={Infinity}
       />
