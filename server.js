@@ -5,10 +5,16 @@ const path = require('path')
 const server = jsonServer.create()
 
 const router = jsonServer.router(path.join(__dirname, 'db.json'))
-const middlewares = jsonServer.defaults()
+const middlewares = require('./range')
+
+
 
 server.use(middlewares)
-server.use(cors())
+server.use(cors({
+    methods: ["GET","OPTIONS","PATCH","DELETE","POST","PUT"],
+    header : ("Access-Control-Allow-Headers" , "Content-Range 0-50/10" , 'Content-Range', '0-50/10' ,'Access-Control-Expose-Headers', 'Content-Range 0-50/10'),
+    
+}))
 server.use(jsonServer.bodyParser)
 server.use(router)
 const PORT = 5000

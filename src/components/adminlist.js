@@ -15,13 +15,15 @@ const Adminlist = (props) => {
     const [username, namechange] = useState("");
     const [password, feedchange] = useState("");
 
+    
+
     const handlesubmit = (e) => {
         e.preventDefault();
         let regobj = { id, username, password };
        
         fetch("http://localhost:5000/admin", {
             method: "POST",
-            headers: { 'content-type': 'application/json' },
+            headers: { 'content-type': 'application/json' , 'Content-Range' : 'admin 0-50/10' },
             body: JSON.stringify(regobj)
         }).then((res) => {
             alert('Admin added')

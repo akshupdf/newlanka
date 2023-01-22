@@ -1,6 +1,7 @@
 {
   "name": "lanka",
   "version": "0.1.0",
+  "proxy": "http://localhost:5000",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -27,10 +28,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "server": "json-server --watch db.json --port 5000 -m ./node_modules/json-server-auth --middlewares ./range.js",
+    "server": "node server.js -m ./node_modules/json-server-auth  ",
     "start": "concurrently \"npm run server\" \"npm run lanka\"  ",
     "lanka": "react-scripts start ",
-    "build": "react-scripts build --host 0.0.0.0",
+    "build": "react-scripts build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

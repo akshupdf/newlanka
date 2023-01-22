@@ -22,11 +22,12 @@ function Adminpanel() {
         }
         
         options.headers.set('Content-Range', 'posts 0-50/50');
+        options.headers.set('Access-Control-Allow-Headers', '*')
         
         
         return fetchUtils.fetchJson(url, options);
     }
-    const dataProvider = simpleRestProvider('http://localhost:3000', fetchJson);
+    const dataProvider = simpleRestProvider('http://localhost:3000/', fetchJson );
 
     return(
         <div>
