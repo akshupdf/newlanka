@@ -21,7 +21,7 @@ const Adminlist = (props) => {
         e.preventDefault();
         let regobj = { id, username, password };
        
-        fetch("http://localhost:5000/admin", {
+        fetch("https://lankanew.onrender.com/admin", {
             method: "POST",
             headers: { 'content-type': 'application/json' , 'Content-Range' : 'admin 0-50/10' },
             body: JSON.stringify(regobj)

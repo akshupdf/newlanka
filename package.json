@@ -28,7 +28,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "server": "node server.js -m ./node_modules/json-server-auth  ",
+    "server": "node server.js -m ./node_modules/json-server-auth --host 0.0.0.0  ",
     "start": "concurrently \"npm run server\" \"npm run lanka\"  ",
     "lanka": "react-scripts start ",
     "build": "react-scripts build ",

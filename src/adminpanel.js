@@ -27,7 +27,7 @@ function Adminpanel() {
         
         return fetchUtils.fetchJson(url, options);
     }
-    const dataProvider = simpleRestProvider('http://localhost:3000/', fetchJson );
+    const dataProvider = simpleRestProvider('https://lankanew.onrender.com/', fetchJson );
 
     return(
         <div>

@@ -18,7 +18,7 @@ function Minislider () {
     
 
     const showData = () => {
-    return axios.get("http://localhost:5000/mini/").then((response) => {
+    return axios.get("https://lankanew.onrender.com/mini/").then((response) => {
      setData(response.data)
      
   })

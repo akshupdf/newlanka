@@ -11,7 +11,7 @@ function Media () {
   }, [])
   
     const showData = () => {
-    axios.get("http://localhost:5000/links/").then((response) => {
+    axios.get("https://lankanew.onrender.com/links/").then((response) => {
      setData(response.data)
      
   
